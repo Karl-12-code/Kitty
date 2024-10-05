@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Juego</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conexión al archivo CSS -->
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <button id="startButton">Comenzar</button>
+    <button id="pauseButton">Pausa</button>
+
+    <div id="modal">
+        <div id="modalContent">
+            <h2>Opciones</h2>
+            <label for="volumeSlider">Volumen:</label>
+            <input type="range" id="volumeSlider" min="0" max="100" value="50">
+            <button id="resumeButton">Reanudar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Conexión al archivo JS -->
+</body>
+</html>
